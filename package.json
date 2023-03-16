@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "exports": "./index.js",
+  "repository": "https://github.com/mainmatter/mocha-diff",
   "scripts": {
     "test": "mocha"
   },
