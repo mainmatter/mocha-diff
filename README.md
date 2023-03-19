@@ -19,3 +19,39 @@ import { generateDiff } from 'mocha-diff';
 
 console.log(generateDiff(actual, expected));
 ```
+
+## Example output
+
+```
+      + expected - actual
+
+       function aVeryNiceTestFunction() {
+      -  console.log('I really should impolement something here');
+      -  console.log('I really should impolement something here');
+      -  console.log('I really should impolement something here');
+      -  console.log('I really should impolement something here');
+      -  console.log('I really should impolement something here');
+      +  console.log('I really should implement something here');
+      +  console.log('I really should implement something here');
+       }
+       
+       function badlyIndented() {
+         let items = [
+           'one',
+      -      'two',
+      +    'two',
+           'three',
+      -  'four',
+      -    'five'
+      +    'four',
+      +    'five',
+         ];
+       }
+      -
+      -function possiblyMissing() {
+      -  console.log('a very important function');
+      -}
+```
+
+The implementation also supports colours if your terminal supports colours: 
+
