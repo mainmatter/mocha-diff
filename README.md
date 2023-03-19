@@ -55,3 +55,4 @@ console.log(generateDiff(actual, expected));
 
 The implementation also supports colours if your terminal supports colours: 
 
+<img width="466" alt="Screenshot 2023-03-19 at 10 44 35" src="https://user-images.githubusercontent.com/594890/226170317-098c9707-04d5-43a3-8d2e-bf66a797ac24.png">
